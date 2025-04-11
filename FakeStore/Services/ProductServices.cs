@@ -50,7 +50,7 @@ namespace FakeStore.Services
                     }).ToList();
                     break;
                 default:
-                    throw new Exception("Currency not supported");
+                    throw new Exception("Currency not supported, only supported USD or MXN");
             }
 
             return products;
